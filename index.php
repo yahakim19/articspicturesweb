@@ -51,7 +51,7 @@
                 <div class="row float-right" style="margin-right: 10px;">
 
                     <a href="#" class="fa fa-pinterest" style="margin-right: 10px;"></a>
-                    <a href="#" class="fa fa-instagram" style="margin-right: 10px;"></a>
+                    <a href="https://www.instagram.com/articspictures/" class="fa fa-instagram" style="margin-right: 10px;"></a>
 
                 </div>
 
@@ -163,7 +163,6 @@
                                 </div>
                             </div>
                         </div>
-
 
                     </div>
                 </div>
