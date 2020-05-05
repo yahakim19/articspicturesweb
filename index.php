@@ -38,7 +38,7 @@
                         <a class="nav-link" href="#">About </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Gallery </a>
+                        <a class="nav-link" href="gallery.php">Gallery </a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="#">Blog </a>
@@ -62,9 +62,11 @@
 
 
         </nav>
-        <!-- navbar end -->
+
 
     </header>
+
+    <!-- navbar end -->
 
     <!-- Promotion and Update -->
     <section class="container col-md-11" style="margin-top: 10px;">
@@ -108,7 +110,7 @@
                 <div class="card">
                     <img class="card-img-top img-thumbnail" style="height: 300px;" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Graduation image cap">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Graduation Packages</h5>
+                        <h5 class="card-title text-center">Graduation</h5>
                         <p class="card-text">
                             <ul>
                                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
@@ -171,7 +173,7 @@
                 <div class="card">
                     <img class="card-img-top img-thumbnail" style="height: 300px;" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Prewedding image cap">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Prewedding Packages</h5>
+                        <h5 class="card-title text-center">Pre Wedding </h5>
                         <p class="card-text">
                             <ul>
                                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
