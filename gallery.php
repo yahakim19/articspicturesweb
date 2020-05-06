@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="../../../../favicon.ico">
+
 
   <title>Gallery</title>
 
@@ -21,7 +21,8 @@
 
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/gallery.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <!-- <link rel="stylesheet" href="assets/css/gallery.css"> -->
   <!-- css script  -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -50,19 +51,19 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto ">
           <li class="nav-item ">
             <a class="nav-link" href="index.php">Home </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="#">About </a>
+            <a class="nav-link" href="about.php">About </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="album.php">Gallery<span class="sr-only">(current)</span> </a>
+            <a class="nav-link" href="gallery.php">Gallery<span class="sr-only">(current)</span> </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="#">Blog </a>
+            <a class="nav-link" href="blog.php">Blog </a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="#">Contact Us </a>
@@ -84,33 +85,73 @@
 
   <!-- navbar end -->
 
-  <main role="main">
+  <main role="main card">
 
-    <section class="jumbotron text-center">
+    <!-- <section class="jumbotron text-center">
       <div class="container">
         <h1 class="jumbotron-heading">Album example</h1>
         <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
 
       </div>
-    </section>
+    </section> -->
 
-    <div class="album py-5 bg-light">
-      <div class="container">
+    <div class="album ">
+      <div class="container ">
 
-        <div class="row">
+        <div class="row ">
+          <div class="container" style="padding:30px;">
+
+
+            <div id="myBtnContainer">
+              <button style="margin:5px;" onclick=" filterSelection('all')" class="btn btn-outline-dark">Show all</button>
+              <button style="margin:5px;" onclick="filterSelection('g')" class="btn btn-outline-secondary">Graduation</button>
+              <button style="margin:5px;" onclick="filterSelection('pw')" class="btn btn-outline-secondary">Pre Wedding</button>
+              <button style="margin:5px;" onclick="filterSelection('others')" class="btn btn-outline-secondary">Others</button>
+            </div>
+
+
+          </div>
+
           <div class=" col-md-10">
-            <div class="container">
+            <div class="container border" style="padding: 30px;">
 
               <div class="row">
-                <div class="col-md-4">
+
+                <div class="col-md-4 pw">
+                  <div class="card mb-4 box-shadow">
+                    <div class="card-body">
+                      <div class="card bg-dark text-white">
+                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">12/12/19</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 g">
                   <div class="card mb-4 box-shadow">
                     <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
                     <div class="card-body">
                       <div class="card bg-dark text-white">
                         <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                          <h5 class="card-title">Card title</h5>
-                        </div>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">12/12/19</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="col-md-4 others">
+                  <div class="card mb-4 box-shadow">
+                    <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
+                    <div class="card-body">
+                      <div class="card bg-dark text-white">
+                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
                       </div>
                       <div class="d-flex justify-content-between align-items-center">
                         <small class="text-muted">12/12/19</small>
@@ -125,28 +166,6 @@
                     <div class="card-body">
                       <div class="card bg-dark text-white">
                         <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                          <h5 class="card-title">Card title</h5>
-                        </div>
-                      </div>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <small class="text-muted">12/12/19</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-
-                <div class="col-md-4">
-                  <div class="card mb-4 box-shadow">
-                    <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
-                    <div class="card-body">
-                      <div class="card bg-dark text-white">
-                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                          <h5 class="card-title">Card title</h5>
-                        </div>
                       </div>
                       <div class="d-flex justify-content-between align-items-center">
                         <small class="text-muted">12/12/19</small>
@@ -161,9 +180,6 @@
                     <div class="card-body">
                       <div class="card bg-dark text-white">
                         <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                          <h5 class="card-title">Card title</h5>
-                        </div>
                       </div>
                       <div class="d-flex justify-content-between align-items-center">
                         <small class="text-muted">12/12/19</small>
@@ -178,26 +194,6 @@
                     <div class="card-body">
                       <div class="card bg-dark text-white">
                         <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                          <h5 class="card-title">Card title</h5>
-                        </div>
-                      </div>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <small class="text-muted">12/12/19</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="card mb-4 box-shadow">
-                    <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
-                    <div class="card-body">
-                      <div class="card bg-dark text-white">
-                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                          <h5 class="card-title">Card title</h5>
-                        </div>
                       </div>
                       <div class="d-flex justify-content-between align-items-center">
                         <small class="text-muted">12/12/19</small>
@@ -208,7 +204,24 @@
 
               </div>
 
+
+
             </div>
+
+            <!-- pagination  -->
+
+            <div>
+              <ul class="pagination justify-content-center" style="margin-top: 10px;">
+                <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item "><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </div>
+
+            <!-- pagination end -->
+
           </div>
 
           <div class=" col-sm-2">
@@ -226,15 +239,11 @@
       </div>
 
 
-
-
-
   </main>
 
-  <hr class="featurette-divider">
 
   <!-- FOOTER -->
-  <footer class="container jumbotron col-md-12">
+  <footer class="container jumbotron col-md-12" style="margin: 20px 0 0 0;">
 
     <p class="float-right"><a href="#">Top</a></p>
 
@@ -242,6 +251,8 @@
   </footer>
 
 
+
 </body>
+
 
 </html>

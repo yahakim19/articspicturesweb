@@ -46,13 +46,13 @@
                         <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link " href="#">About </a>
+                        <a class="nav-link " href="about.php">About </a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link " href="gallery.php">Gallery </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link " href="#">Blog </a>
+                        <a class="nav-link " href="blog.php">Blog </a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link " href="#">Contact Us </a>
@@ -242,7 +242,7 @@
         </div>
 
         <!-- Small modal -->
-        <button type="button" class="btn btn-primary col-sm-6" data-toggle="modal" data-target=".bd-example-modal-sm">Custom</button>
+        <button style="margin-top: 10px" type="button" class="btn btn-primary col-sm-6" data-toggle="modal" data-target=".bd-example-modal-sm">Describe Now</button>
 
         <div class="modal fade bd-example-modal-sm " tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-sm">
