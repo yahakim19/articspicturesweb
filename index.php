@@ -13,7 +13,7 @@
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+
     <link rel="stylesheet" href="assets/css/home.css">
 
     <!-- css script  -->
@@ -29,7 +29,7 @@
 
 <body>
 
-    <header >
+    <header>
         <!-- navbar -->
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -155,50 +155,6 @@
                         <!-- <a href="#" class="btn btn-primary float-right">Book Now</a> -->
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="Graduation">Book Now</button>
 
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="#">Order Form</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form>
-                                            <div class="form-group">
-                                                <label for="recipient-package" class="col-form-label">Package:</label>
-                                                <input type="text" class="form-control" id="recipient-package" disabled>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-form-label">Name:</label>
-                                                <input type="text" class="form-control" id="recipient-name" placeholder="Your Name">
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-form-label">Order Date:</label>
-                                                <input type="date" class="form-control" id="recipient-date">
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-form-label">Phone:</label>
-                                                <input type="tel" class="form-control" id="recipient-phone" placeholder="08xx">
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-form-label">Email:</label>
-                                                <input type="email" class="form-control" id="recipient-email" placeholder="email@email.com">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="message-text" class="col-form-label">Message:</label>
-                                                <textarea class="form-control" id="message-text" placeholder="Let us know what you need"></textarea>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Send message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
                     </div>
                 </div>
@@ -220,56 +176,56 @@
 
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="Pre Wedding">Book Now</button>
 
-
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5>Order Form</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form>
-                                            <div class="form-group">
-                                                <label for="recipient-package" class="col-form-label">Package:</label>
-                                                <input type="text" class="form-control" id="recipient-package" disabled>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-form-label">Name:</label>
-                                                <input type="text" class="form-control" id="recipient-name" placeholder="Your Name">
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-form-label">Order Date:</label>
-                                                <input type="date" class="form-control" id="recipient-date">
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-form-label">Phone:</label>
-                                                <input type="tel" class="form-control" id="recipient-phone" placeholder="08xx">
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-form-label">Email:</label>
-                                                <input type="email" class="form-control" id="recipient-email" placeholder="email@email.com">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="message-text" class="col-form-label">Message:</label>
-                                                <textarea class="form-control" id="message-text" placeholder="Let us know what you need"></textarea>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Send message</button>
-                                    </div>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Form with modal  -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="#">Order Form</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
                         </div>
-
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="recipient-package" class="col-form-label">Package:</label>
+                                    <input type="text" class="form-control" id="recipient-package" disabled>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label">Name:</label>
+                                    <input type="text" class="form-control" id="recipient-name" placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label">Order Date:</label>
+                                    <input type="date" class="form-control" id="recipient-date">
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label">Phone:</label>
+                                    <input type="tel" class="form-control" id="recipient-phone" placeholder="08xx">
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label">Email:</label>
+                                    <input type="email" class="form-control" id="recipient-email" placeholder="email@email.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Message:</label>
+                                    <textarea class="form-control" id="message-text" placeholder="Let us know what you need"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                        </div>
                     </div>
                 </div>
             </div>
 
+            <!-- Form with modal end  -->
         </div>
     </section>
     <!-- Choose Packages End -->
