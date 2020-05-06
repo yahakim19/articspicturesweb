@@ -1,3 +1,10 @@
+h1 .jumbotron-heading{
+
+  background-image: url('../images/PromoBanner/BannerPromo.jpg');
+
+}
+
+
 :root {
   --jumbotron-padding-y: 3rem;
 }

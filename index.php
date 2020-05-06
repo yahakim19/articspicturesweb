@@ -43,19 +43,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto ">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">About </a>
+                        <a class="nav-link " href="#">About </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="gallery.php">Gallery </a>
+                        <a class="nav-link " href="gallery.php">Gallery </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Blog </a>
+                        <a class="nav-link " href="#">Blog </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Contact Us </a>
+                        <a class="nav-link " href="#">Contact Us </a>
                     </li>
                 </ul>
 
@@ -91,23 +91,9 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="first-slide" src="assets/images/PromoBanner/BannerPromo.jpg" alt="First slide">
-                    <div class="container">
-                        <div class="carousel-caption text-left">
-                            <h1>Example headline.</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-
-                        </div>
-                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <h1>Another example headline.</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-
-                        </div>
-                    </div>
+                    <img class="second-slide" src="assets/images/PromoBanner/BannerPromo2.jpg" alt="Second slide">
                 </div>
 
             </div>
@@ -301,13 +287,16 @@
 
     <hr class="featurette-divider">
 
-    <!-- FOOTER -->
+    <!-- FOOTER --> 
     <footer class="container jumbotron col-md-12" style="margin: 20px 0 0 0;">
 
         <p class="float-right"><a href="#">Top</a></p>
 
         <p class="text-center">&copy; Hactiv8 FWDB Final Assignment. </p>
     </footer>
+
+    
+    
     <script src="javascript/index.js"></script>
 </body>
 
