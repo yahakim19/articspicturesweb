@@ -8,7 +8,10 @@
   <meta name="author" content="">
   <link rel="icon" href="../../../../favicon.ico">
 
-  <title>Album example for Bootstrap</title>
+  <title>Gallery</title>
+
+  <!-- <link rel="icon" href="assets/images/favico/favicon-16x16.png" type="image/gif" sizes="16x16"> -->
+  <link rel="shortcut icon" href="assets/images/favico/favicon-16x16.png" type="image/x-icon">
 
   <!-- Bootstrap core CSS -->
   <!-- <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -18,6 +21,7 @@
 
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/gallery.css">
   <!-- css script  -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -97,7 +101,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+              <img class="card-img-top" data-src="#" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -240,15 +244,15 @@
 
   <hr class="featurette-divider">
 
-    <!-- FOOTER -->
-    <footer class="container jumbotron col-md-12" style="margin: 20px 0 0 0;">
+  <!-- FOOTER -->
+  <footer class="container jumbotron col-md-12" style="margin: 20px 0 0 0;">
 
-        <p class="float-right"><a href="#">Top</a></p>
+    <p class="float-right"><a href="#">Top</a></p>
 
-        <p class="text-center">&copy; Hactiv8 FWDB Final Assignment. </p>
-    </footer>
+    <p class="text-center">&copy; Hactiv8 FWDB Final Assignment. </p>
+  </footer>
 
-  
+
 </body>
 
 </html>
