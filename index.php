@@ -128,15 +128,19 @@
 
             <div class="col-sm-6">
                 <div class="card">
-                    <img class="card-img-top img-thumbnail" style="height: 300px;" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Graduation image cap">
+                    <img class="card-img-top img-thumbnail" style="height: 300px;" src="assets/images/graduation.jpg" alt="Graduation image cap">
                     <div class="card-body">
                         <h5 class="card-title text-center">Graduation</h5>
                         <p class="card-text">
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                                <li>Praesent consectetur sapien sit amet egestas ultrices</li>
-                                <li>In eleifend nisl id ultricies sodales</li>
+                            <ul class="list-unstyled mt-3 mb-4 text-center">
+                                <li>1 Hour session</li>
+                                <li>30 Edited Photo</li>
+                                <li>Printed 10 RS (3 pcs)</li>
+                                <li>Printed Photo 12R (1 pcs)</li>
+                                <li>Frame Cinematic 1 - 3 Minutes</li>
+                                <li>Potrait Video 30 Second</li>
                             </ul>
+                            <h4 class="text-center display 5">IDR 799K </h4>
                         </p>
                         <!-- <a href="#" class="btn btn-primary float-right">Book Now</a> -->
                         <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#exampleModal" data-whatever="Graduation">Book Now</button>
@@ -147,18 +151,23 @@
             </div>
             <div class="col-sm-6">
                 <div class="card">
-                    <img class="card-img-top img-thumbnail" style="height: 300px;" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Prewedding image cap">
+
+                    <img class="card-img-top img-thumbnail" style="height: 300px;" src="assets/images/prewedding3.jpg" alt="Prewedding image cap">
                     <div class="card-body">
                         <h5 class="card-title text-center">Pre Wedding </h5>
                         <p class="card-text">
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                                <li>Praesent consectetur sapien sit amet egestas ultrices</li>
-                                <li>In eleifend nisl id ultricies sodales</li>
+                            <ul class="list-unstyled mt-3 mb-4 text-center">
+                                <li>1 Day outdoor session</li>
+                                <li>3 Location</li>
+                                <li>80 Edited Photo</li>
+                                <li>Pre Wedding Photobook 21x15cm 56pgs</li>
+                                <li>2 Printed Photo 40x60cm</li>
+                                <li>Cinematic Prewedding</li>
                             </ul>
+                            <h4 class="text-center display 5">IDR 6.000K </h4>
                         </p>
-                        <!-- <a href="#" class="btn btn-primary float-right">Book Now</a> -->
-                        <!-- Small modal -->
+
+
 
                         <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#exampleModal" data-whatever="Pre Wedding">Book Now</button>
 
@@ -214,6 +223,7 @@
             <!-- Form with modal end  -->
         </div>
     </section>
+
     <!-- Choose Packages End -->
 
 
