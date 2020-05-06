@@ -13,6 +13,7 @@
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="assets/css/home.css">
 
     <!-- css script  -->
@@ -28,7 +29,7 @@
 
 <body>
 
-    <header>
+    <header >
         <!-- navbar -->
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -79,7 +80,7 @@
     <!-- navbar end -->
 
     <!-- Promotion and Update -->
-    <section class="container" style="margin-top: 10px;">
+    <section class="container">
 
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
