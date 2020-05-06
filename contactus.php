@@ -57,15 +57,15 @@
                         <a class="nav-link" href="index.php">Home </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="about.php">About <span class="sr-only">(current)</span> </a>
+                        <a class="nav-link" href="about.php">About </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="gallery.php">Gallery</a>
+                        <a class="nav-link" href="gallery.php">Gallery<span class="sr-only">(current)</span> </a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link" href="blog.php">Blog </a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item active">
                         <a class="nav-link" href="contactus.php">Contact Us </a>
                     </li>
                 </ul>
@@ -87,7 +87,13 @@
 
     <main role="main card">
 
+        <!-- <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Album example</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
 
+      </div>
+    </section> -->
 
         <div class="album ">
             <div class="container ">
