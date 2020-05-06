@@ -139,7 +139,7 @@
                             </ul>
                         </p>
                         <!-- <a href="#" class="btn btn-primary float-right">Book Now</a> -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="Graduation">Book Now</button>
+                        <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#exampleModal" data-whatever="Graduation">Book Now</button>
 
 
                     </div>
@@ -160,7 +160,7 @@
                         <!-- <a href="#" class="btn btn-primary float-right">Book Now</a> -->
                         <!-- Small modal -->
 
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="Pre Wedding">Book Now</button>
+                        <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#exampleModal" data-whatever="Pre Wedding">Book Now</button>
 
                     </div>
                 </div>
@@ -227,7 +227,7 @@
             </div>
 
             <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" data-src="" alt="Generic placeholder image">
+                <img class="featurette-image img-fluid mx-auto" src="assets/images/custom.jpg" alt="Generic placeholder image">
             </div>
         </div>
 
@@ -287,7 +287,7 @@
 
     <hr class="featurette-divider">
 
-    <!-- FOOTER --> 
+    <!-- FOOTER -->
     <footer class="container jumbotron col-md-12" style="margin: 20px 0 0 0;">
 
         <p class="float-right"><a href="#">Top</a></p>
@@ -295,8 +295,8 @@
         <p class="text-center">&copy; Hactiv8 FWDB Final Assignment. </p>
     </footer>
 
-    
-    
+
+
     <script src="javascript/index.js"></script>
 </body>
 
