@@ -104,15 +104,16 @@
               <div class="row">
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="#" alt="Card image cap">
+                    <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <div class="card bg-dark text-white">
+                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Card title</h5>
                         </div>
-                        <small class="text-muted">9 mins</small>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">12/12/19</small>
                       </div>
                     </div>
                   </div>
@@ -120,15 +121,35 @@
 
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="#" alt="Card image cap">
+                    <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <div class="card bg-dark text-white">
+                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Card title</h5>
                         </div>
-                        <small class="text-muted">9 mins</small>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">12/12/19</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
+                    <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
+                    <div class="card-body">
+                      <div class="card bg-dark text-white">
+                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Card title</h5>
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">12/12/19</small>
                       </div>
                     </div>
                   </div>
@@ -136,15 +157,16 @@
 
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="#" alt="Card image cap">
+                    <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <div class="card bg-dark text-white">
+                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Card title</h5>
                         </div>
-                        <small class="text-muted">9 mins</small>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">12/12/19</small>
                       </div>
                     </div>
                   </div>
@@ -152,15 +174,16 @@
 
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="#" alt="Card image cap">
+                    <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <div class="card bg-dark text-white">
+                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Card title</h5>
                         </div>
-                        <small class="text-muted">9 mins</small>
+                      </div>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">12/12/19</small>
                       </div>
                     </div>
                   </div>
@@ -168,31 +191,16 @@
 
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="#" alt="Card image cap">
+                    <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
                     <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <div class="card bg-dark text-white">
+                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Card title</h5>
                         </div>
-                        <small class="text-muted">9 mins</small>
                       </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="#" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
+                        <small class="text-muted">12/12/19</small>
                       </div>
                     </div>
                   </div>
@@ -226,7 +234,7 @@
   <hr class="featurette-divider">
 
   <!-- FOOTER -->
-  <footer class="container jumbotron col-md-12" style="margin: 20px 0 0 0;">
+  <footer class="container jumbotron col-md-12">
 
     <p class="float-right"><a href="#">Top</a></p>
 
