@@ -116,21 +116,21 @@
 
 
                             <div class="card" style="padding: 10px;margin: 10px;">
-                                <h2 class="display-3">TITLE HEADING</h2>
+                                <h4 class="display-4">TITLE HEADING</h4>
                                 <div>
                                     <ul class="list-inline list-unstyled">
                                         <li id="postTag" class="lead">Tags</li>
                                         <li id="postDate" class="lead">12/12/19</li>
                                     </ul>
                                 </div>
-                                <div class="fakeimg" style="height:200px;">Image</div>
+                                <div class="img-thumbnail" style="height:200px;"></div>
                                 <p>Some text..</p>
                                 <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                                 <a href="#" class="text-right text-muted">Read more</a>
                             </div>
 
                             <div class="card" style="padding: 10px; margin: 10px;">
-                                <h2 class="display-3">TITLE HEADING</h2>
+                                <h4 class="display-4">TITLE HEADING</h4>
                                 <div>
                                     <ul class="list-inline list-unstyled">
                                         <li id="postTag" class="lead">Tags</li>

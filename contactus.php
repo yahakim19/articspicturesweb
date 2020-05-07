@@ -122,27 +122,58 @@
 
     <main role="main card" class="container">
 
-        <section class="container">
+        <div class="container row">
+            <section class="container col-md-4">
+                <h4 class="text-center">Where are we? </h4>
+                <div class="card box-shadow border">
 
-            <div class="col-md-4 card box-shadow border">
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td>Location</td>
-                            <td >Semarang, Jawa Tengah, Indonesia</td>
-                        </tr>
-                        <tr>
-                            <td>Email</td>
-                            <td >email@email.com</td>
-                        </tr>
-                        <tr>
-                            <td>Ig</td>
-                            <td >articspictures</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>Location</td>
+                                <td>Semarang, Jawa Tengah, Indonesia</td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>email@email.com</td>
+                            </tr>
+                            <tr>
+                                <td>Social Media</td>
+                                <td>articspictures</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section class="container col-md-6">
+                <h4 class="text-center">Get our update and promo</h4>
+                <div class="card " style="padding: 30px;">
+                    <form>
+                        <div class="form-group">
+                            <label class="col-form-label">Name</label>
+                            <input type="text" class="form-control" id="recipient-name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Contact</label>
+                            <input type="text" class="form-control" id="recipient-email" placeholder="email or phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Message</label>
+                            <textarea class="form-control" id="message-text" placeholder="What you want to know dear?"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-success float-right" style="margin: 20px;">
+                                Send
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </section>
+
+        </div>
+
+
     </main>
     <!-- FOOTER -->
 
