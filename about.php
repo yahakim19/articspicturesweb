@@ -45,7 +45,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
-                <img src="assets/images/favico/favicon-96x96.png" alt="brand logo">
+                <img src="assets/images/favico/favicon-32x32.png" alt="brand logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -228,25 +228,25 @@
                     <div>
 
 
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color: white;">
                             <ol class="carousel-indicators invisible">
                                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                                 <li data-target="#myCarousel" data-slide-to="1"></li>
                             </ol>
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
+                                <div class="carousel-item active" style="margin: 10px;">
                                     <div class="row justify-content-center">
-                                        <div class="card col-sm-4" style="padding: 40px">
+                                        <div class="card col-sm-4" style="padding: 40px" style="margin: 10px;">
                                             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                                             <h6 class="text-center lean" style="margin-top: 15px;">Wisudawan Siskom</h6>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
                                         </div>
-                                        <div class="card col-sm-4" style="padding: 40px">
+                                        <div class="card col-sm-4" style="padding: 40px" style="margin: 10px;">
                                             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                                             <h6 class="text-center lean" style="margin-top: 15px;">UCC </h6>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
                                         </div>
-                                        <div class="card col-sm-4" style="padding: 40px">
+                                        <div class="card col-sm-4" style="padding: 40px" style="margin: 10px;">
                                             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                                             <h6 class="text-center lean" style="margin-top: 15px;">Indri & Harliyan</h6>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
@@ -254,19 +254,19 @@
 
                                     </div>
                                 </div>
-                                <div class="carousel-item">
+                                <div class="carousel-item" style="margin: 10px;">
                                     <div class="row justify-content-center">
-                                        <div class="card col-sm-4" style="padding: 40px">
+                                        <div class="card col-sm-4" style="padding: 40px" style="margin: 10px;">
                                             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                                             <h6 class="text-center lean" style="margin-top: 15px;">Wisudawan Siskom</h6>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
                                         </div>
-                                        <div class="card col-sm-4" style="padding: 40px">
+                                        <div class="card col-sm-4" style="padding: 40px" style="margin: 10px;">
                                             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                                             <h6 class="text-center lean" style="margin-top: 15px;">UCC </h6>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
                                         </div>
-                                        <div class="card col-sm-4" style="padding: 40px">
+                                        <div class="card col-sm-4" style="padding: 40px" style="margin: 10px;">
                                             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                                             <h6 class="text-center lean" style="margin-top: 15px;">Andi & Dita</h6>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
@@ -295,9 +295,11 @@
     <!-- FOOTER -->
     <footer class="container jumbotron col-md-12" style="margin: 20px 0 0 0;">
 
-        <p class="float-right"><a href="#">Top</a></p>
+
 
         <p class="text-center">&copy; Hactiv8 FWDB Final Assignment. </p>
+
+        <p class="float-right"><a href="#">Top</a></p>
     </footer>
 
 

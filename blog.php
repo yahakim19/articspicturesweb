@@ -45,7 +45,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
-                <img src="assets/images/favico/favicon-96x96.png" alt="brand logo">
+                <img src="assets/images/favico/favicon-32x32.png" alt="brand logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,13 +57,13 @@
                         <a class="nav-link" href="index.php">Home </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="about.php">About <span class="sr-only">(current)</span> </a>
+                        <a class="nav-link" href="about.php">About </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="gallery.php">Gallery</a>
+                        <a class="nav-link" href="gallery.php">Gallery </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="blog.php">Blog </a>
+                        <a class="nav-link" href="blog.php">Blog <span class="sr-only">(current)</span> </a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="contactus.php">Contact Us </a>
@@ -85,120 +85,53 @@
 
     <!-- navbar end -->
 
-    <main role="main card">
+    <main role="main" class="container">
 
+        <!-- <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Album example</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
 
+      </div>
+    </section> -->
 
         <div class="album ">
             <div class="container ">
 
                 <div class="row ">
                     <div class="container" style="padding:30px;">
-
-
                         <div id="myBtnContainer">
-                            <button style="margin:5px;" onclick=" filterSelection('all')" class="btn btn-outline-dark">Show all</button>
-                            <button style="margin:5px;" onclick="filterSelection('g')" class="btn btn-outline-secondary">Graduation</button>
-                            <button style="margin:5px;" onclick="filterSelection('pw')" class="btn btn-outline-secondary">Pre Wedding</button>
+                            <button style="margin:5px;" onclick=" filterSelection('all')" class="btn btn-outline-dark">Latest</button>
+                            <button style="margin:5px;" onclick="filterSelection('g')" class="btn btn-outline-secondary">Location</button>
+                            <button style="margin:5px;" onclick="filterSelection('pw')" class="btn btn-outline-secondary">Photo Session</button>
                             <button style="margin:5px;" onclick="filterSelection('others')" class="btn btn-outline-secondary">Others</button>
                         </div>
 
-
                     </div>
 
-                    <div class=" col-md-10">
+                    <div class=" col-md-9">
                         <div class="container border" style="padding: 30px;">
 
-                            <div class="row">
-
-                                <div class="col-md-4 pw">
-                                    <div class="card mb-4 box-shadow">
-                                        <div class="card-body">
-                                            <div class="card bg-dark text-white">
-                                                <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <small class="text-muted">12/12/19</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 g">
-                                    <div class="card mb-4 box-shadow">
-                                        <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
-                                        <div class="card-body">
-                                            <div class="card bg-dark text-white">
-                                                <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <small class="text-muted">12/12/19</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <h3 class=" display-3">Latest Post</h3>
 
 
-
-                                <div class="col-md-4 others">
-                                    <div class="card mb-4 box-shadow">
-                                        <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
-                                        <div class="card-body">
-                                            <div class="card bg-dark text-white">
-                                                <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <small class="text-muted">12/12/19</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="card mb-4 box-shadow">
-                                        <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
-                                        <div class="card-body">
-                                            <div class="card bg-dark text-white">
-                                                <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <small class="text-muted">12/12/19</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="card mb-4 box-shadow">
-                                        <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
-                                        <div class="card-body">
-                                            <div class="card bg-dark text-white">
-                                                <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <small class="text-muted">12/12/19</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="card mb-4 box-shadow">
-                                        <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
-                                        <div class="card-body">
-                                            <div class="card bg-dark text-white">
-                                                <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
-                                            </div>
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <small class="text-muted">12/12/19</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
+                            <div class="card" style="padding: 10px;margin: 10px;">
+                                <h2>TITLE HEADING</h2>
+                                <h5>Title description, Dec 7, 2017</h5>
+                                <div class="fakeimg" style="height:200px;">Image</div>
+                                <p>Some text..</p>
+                                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                <a href="#" class="text-right text-muted">Read more</a>
                             </div>
 
-
+                            <div class="card" style="padding: 10px; margin: 10px;">
+                                <h2>TITLE HEADING</h2>
+                                <h5>Title description, Dec 7, 2017</h5>
+                                <div class="img-thumbnail" style="height:200px;" ></div>
+                                <p>Some text..</p>
+                                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                <a href="#" class="text-right text-muted">Read more</a>
+                            </div>
 
                         </div>
 
@@ -218,13 +151,26 @@
 
                     </div>
 
-                    <div class=" col-sm-2">
+                    <div class=" col-md-3 container " style="padding: 10px;">
                         <!-- advertisement -->
                         <aside>
-                            <div class="container">
 
-                                <img src="assets/images/Adv.jpg" style="height: 453px; width:255px; " alt="Advertisment">
+                            <h4 class="text-center" style="margin:10px;">Popular Post</h4>
 
+                            <div class="container card border" style="margin-top: 10px">
+                                <img class="img-thumbnail rounded " src="assets/images/graduation.jpg" alt="AAAA">
+                                <h5>Title</h5>
+                                <p class="card-text mb-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id velit vel magna scelerisque aliquam.</p>
+                                <a href="#" class="text-right">Continue reading >>></a>
+                            </div>
+
+                            <hr class="featurette-divider">
+
+                            <div class="container card border" style="margin-top: 10px">
+                                <img class="img-thumbnail rounded " src="assets/images/graduation.jpg" alt="AAAA">
+                                <h5>Title</h5>
+                                <p class="card-text mb-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id velit vel magna scelerisque aliquam.</p>
+                                <a href="#" class="text-right">Continue reading >>></a>
                             </div>
 
                         </aside>

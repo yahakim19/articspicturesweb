@@ -34,7 +34,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
-                <img src="assets/images/favico/favicon-96x96.png" alt="brand logo">
+                <img src="assets/images/favico/favicon-32x32.png" alt="brand logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -154,7 +154,7 @@
 
                     <img class="card-img-top img-thumbnail" style="height: 300px;" src="assets/images/prewedding3.jpg" alt="Prewedding image cap">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Pre Wedding </h5>
+                        <h5 class="card-title text-center">Prewedding </h5>
                         <p class="card-text">
                             <ul class="list-unstyled mt-3 mb-4 text-center">
                                 <li>1 Day outdoor session</li>
@@ -169,7 +169,7 @@
 
 
 
-                        <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#exampleModal" data-whatever="Pre Wedding">Book Now</button>
+                        <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#exampleModal" data-whatever="Prewedding">Book Now</button>
 
                     </div>
                 </div>
@@ -225,8 +225,6 @@
     </section>
 
     <!-- Choose Packages End -->
-
-
 
     <!-- Others -->
     <section class="container card" style="margin-top: 30px;padding: 30px;">
@@ -295,7 +293,7 @@
 
     <!-- Others  End-->
 
-    <hr class="featurette-divider">
+    <!--  -->
 
     <!-- FOOTER -->
     <footer class="container jumbotron col-md-12" style="margin: 20px 0 0 0;">
