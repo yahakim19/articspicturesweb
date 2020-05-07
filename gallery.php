@@ -87,13 +87,7 @@
 
   <main role="main card">
 
-    <!-- <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading">Album example</h1>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
 
-      </div>
-    </section> -->
 
     <div class="album ">
       <div class="container ">
@@ -121,7 +115,7 @@
                   <div class="card mb-4 box-shadow">
                     <div class="card-body">
                       <div class="card bg-dark text-white">
-                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                        <img class="card-img" src="assets/images/Gallery/7.jpg" alt="Card image">
                       </div>
                       <div class="d-flex justify-content-between align-items-center">
                         <small class="text-muted">12/12/19</small>
@@ -135,7 +129,7 @@
                     <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
                     <div class="card-body">
                       <div class="card bg-dark text-white">
-                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                        <img class="card-img" src="assets/images/Gallery/3.jpg" alt="Card image">
                       </div>
                       <div class="d-flex justify-content-between align-items-center">
                         <small class="text-muted">12/12/19</small>
@@ -151,7 +145,7 @@
                     <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
                     <div class="card-body">
                       <div class="card bg-dark text-white">
-                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                        <img class="card-img" src="assets/images/Gallery/2.jpg" alt="Card image">
                       </div>
                       <div class="d-flex justify-content-between align-items-center">
                         <small class="text-muted">12/12/19</small>
@@ -165,7 +159,7 @@
                     <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
                     <div class="card-body">
                       <div class="card bg-dark text-white">
-                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                        <img class="card-img" src="assets/images/Gallery/dinta.jpg" alt="Card image">
                       </div>
                       <div class="d-flex justify-content-between align-items-center">
                         <small class="text-muted">12/12/19</small>
@@ -179,7 +173,7 @@
                     <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
                     <div class="card-body">
                       <div class="card bg-dark text-white">
-                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                        <img class="card-img" src="assets/images/Gallery/4.jpg" alt="Card image">
                       </div>
                       <div class="d-flex justify-content-between align-items-center">
                         <small class="text-muted">12/12/19</small>
@@ -193,7 +187,7 @@
                     <!-- <img class="card-img-top" data-src="#" alt="Card image cap"> -->
                     <div class="card-body">
                       <div class="card bg-dark text-white">
-                        <img class="card-img" src="assets/images/duo-chen-zeXp39YYR-s-unsplash.jpg" alt="Card image">
+                        <img class="card-img" src="assets/images/Gallery/aan.jpg" alt="Card image">
                       </div>
                       <div class="d-flex justify-content-between align-items-center">
                         <small class="text-muted">12/12/19</small>
