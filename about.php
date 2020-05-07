@@ -221,33 +221,33 @@
                 </div>
             </div>
 
-            <section class="container justify-content-center" style="margin: 10px;">
-                <div class="container col-lg-12 border" style="padding:30px;">
+            <section style="margin: 10px;">
+                <div class="container col-lg-12 border" style="padding:10px;">
                     <h3 class="text-center display-4">Meet Our Clients</h3>
 
                     <div>
-
-
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color: white;">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators invisible">
                                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                                 <li data-target="#myCarousel" data-slide-to="1"></li>
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active" style="margin: 10px;">
-                                    <div class="row justify-content-center">
+                                    <div class="row">
                                         <div class="card col-sm-4" style="padding: 40px" style="margin: 10px;">
-                                            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                                            <img class="rounded-circle mx-auto d-block" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                                             <h6 class="text-center lean" style="margin-top: 15px;">Wisudawan Siskom</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
+                                            <blockquote>
+                                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
+                                            </blockquote>
                                         </div>
                                         <div class="card col-sm-4" style="padding: 40px" style="margin: 10px;">
-                                            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                                            <img class="rounded-circle mx-auto d-block" src="assets/images/Compro/ucc.png" alt="Generic placeholder image" width="140" height="140">
                                             <h6 class="text-center lean" style="margin-top: 15px;">UCC </h6>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
                                         </div>
                                         <div class="card col-sm-4" style="padding: 40px" style="margin: 10px;">
-                                            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                                            <img class="rounded-circle mx-auto d-block" src="assets/images/Compro/DSC00449.jpg" alt="Generic placeholder image" width="140" height="140">
                                             <h6 class="text-center lean" style="margin-top: 15px;">Indri & Harliyan</h6>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
                                         </div>
@@ -257,17 +257,17 @@
                                 <div class="carousel-item" style="margin: 10px;">
                                     <div class="row justify-content-center">
                                         <div class="card col-sm-4" style="padding: 40px" style="margin: 10px;">
-                                            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                                            <img class="rounded-circle mx-auto d-block" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                                             <h6 class="text-center lean" style="margin-top: 15px;">Wisudawan Siskom</h6>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
                                         </div>
                                         <div class="card col-sm-4" style="padding: 40px" style="margin: 10px;">
-                                            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                                            <img class="rounded-circle  mx-auto d-block" src="assets/images/Compro/ucc.png" alt="Generic placeholder image" width="140" height="140">
                                             <h6 class="text-center lean" style="margin-top: 15px;">UCC </h6>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
                                         </div>
                                         <div class="card col-sm-4" style="padding: 40px" style="margin: 10px;">
-                                            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                                            <img class="rounded-circle  mx-auto d-block" src="assets/images/Compro/DSC00449.jpg" alt="Generic placeholder image" width="140" height="140">
                                             <h6 class="text-center lean" style="margin-top: 15px;">Andi & Dita</h6>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec lectus vehicula, scelerisque metus ac, fringilla mauris. Fusce maximus a sem nec iaculis. Phasellus accumsan posuere nulla ac hendrerit.</p>
                                         </div>

@@ -17,7 +17,7 @@
     <!-- <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
-    <!-- <link href="album.css" rel="stylesheet"> -->
+
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -116,8 +116,13 @@
 
 
                             <div class="card" style="padding: 10px;margin: 10px;">
-                                <h2>TITLE HEADING</h2>
-                                <h5>Title description, Dec 7, 2017</h5>
+                                <h2 class="display-3">TITLE HEADING</h2>
+                                <div>
+                                    <ul class="list-inline list-unstyled">
+                                        <li id="postTag" class="lead">Tags</li>
+                                        <li id="postDate" class="lead">12/12/19</li>
+                                    </ul>
+                                </div>
                                 <div class="fakeimg" style="height:200px;">Image</div>
                                 <p>Some text..</p>
                                 <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -125,9 +130,15 @@
                             </div>
 
                             <div class="card" style="padding: 10px; margin: 10px;">
-                                <h2>TITLE HEADING</h2>
-                                <h5>Title description, Dec 7, 2017</h5>
-                                <div class="img-thumbnail" style="height:200px;" ></div>
+                                <h2 class="display-3">TITLE HEADING</h2>
+                                <div>
+                                    <ul class="list-inline list-unstyled">
+                                        <li id="postTag" class="lead">Tags</li>
+                                        <li id="postDate" class="lead">12/12/19</li>
+                                    </ul>
+                                </div>
+
+                                <div class="img-thumbnail" style="height:200px;"></div>
                                 <p>Some text..</p>
                                 <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                                 <a href="#" class="text-right text-muted">Read more</a>
