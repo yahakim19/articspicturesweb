@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
 
-    <title>Gallery</title>
+    <title>Blog</title>
 
     <!-- <link rel="icon" href="assets/images/favico/favicon-16x16.png" type="image/gif" sizes="16x16"> -->
     <link rel="shortcut icon" href="assets/images/favico/favicon-16x16.png" type="image/x-icon">
